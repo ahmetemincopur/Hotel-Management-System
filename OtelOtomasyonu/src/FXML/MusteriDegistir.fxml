@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="anc_degistir" prefHeight="300.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="Controllers.MusteriDegistirController">
+   <children>
+      <ChoiceBox fx:id="oda" layoutX="75.0" layoutY="41.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="durum" layoutX="75.0" layoutY="124.0" prefWidth="150.0" />
+      <Button fx:id="degistir" layoutX="83.0" layoutY="198.0" mnemonicParsing="false" onAction="#degistir_action" text="Değiştir">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

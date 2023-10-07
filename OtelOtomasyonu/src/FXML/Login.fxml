@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="login_Anc" prefHeight="219.0" prefWidth="488.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginController">
+   <children>
+      <TextField fx:id="loginUser_TextField" layoutX="223.0" layoutY="44.0" prefHeight="26.0" prefWidth="140.0" promptText="Kullanıcı Adını Giriniz..." />
+      <PasswordField fx:id="loginPass_PasswordField" layoutX="223.0" layoutY="98.0" prefHeight="26.0" prefWidth="140.0" promptText="Şifrenizi Giriniz..." />
+      <Button fx:id="loginButton" layoutX="217.0" layoutY="141.0" mnemonicParsing="false" onAction="#loginButton_Action" prefHeight="51.0" prefWidth="152.0" text="Giriş Yap">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <ImageView fitHeight="227.0" fitWidth="218.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/hotel.png" />
+         </image></ImageView>
+      <Label fx:id="label" layoutX="223.0" layoutY="26.0" text="Kullanıcı Adı" />
+      <Label fx:id="label2" layoutX="221.0" layoutY="80.0" text="Şifre " />
+      <ImageView fx:id="user_icon" fitHeight="35.0" fitWidth="35.0" layoutX="186.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/user-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="password_icon" fitHeight="35.0" fitWidth="35.0" layoutX="186.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/padlock-icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

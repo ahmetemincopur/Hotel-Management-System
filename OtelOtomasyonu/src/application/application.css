@@ -1,0 +1,97 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+ #anchor-pane_snow{
+	-fx-background-color: snow;
+	-fx-background-image: url('file:///C:/Users/ahmet/eclipse-workspace/OtelOtomasyonu/src/images/background.jpg');
+	-fx-background-size: cover;
+}
+
+#label{
+	-fx-background-color: coral;
+	-fx-font-size: 15px;
+}
+
+#label2{
+	-fx-background-color: coral;
+	-fx-font-size: 15px;
+}
+
+
+
+#login_Anc{
+	-fx-background-image: url('file:///C:/Users/ahmet/eclipse-workspace/OtelOtomasyonu/src/images/grand_hotel.jpg');
+	-fx-background-size: cover;
+}
+
+#anchor-pane-whitesmoke{
+	-fx-background-color: 	whitesmoke;
+}
+ 	
+#cikisYap{
+    -fx-background-color: #FF6565;
+}
+
+#kapat{
+    -fx-background-color: burlywood;
+}
+
+#oturumu_kapat{
+    -fx-background-color: darksalmon;
+}
+
+.button {
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+}
+
+#button-blue{
+	-fx-background-color: #6ECAFF;
+}
+
+#sil-button{
+	-fx-background-color: #FF8080;
+}
+
+#duzenle-button{
+	-fx-background-color: #DBFAA1;
+}
+
+
+#degistir-button{
+	-fx-background-color: #F8FFE3;
+}
+
+#ekle-button{
+	-fx-background-color: #00FF94;
+}
+
+#main-button-green {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-background-color: #00DB37;
+}
+
+#main-button-orange {
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-background-color: #FFB800;
+}
+
+ .table-view{
+	-fx-background-color: #00F48E;
+}
+
+.table-view .column-header{
+    -fx-background-color: #E2E6D8;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: azure;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: ghostwhite;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #F5B041;
+}
